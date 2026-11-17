@@ -1,0 +1,20 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/api/posts/:id
+method: PUT
+pathVariables:
+  - key: id
+    value: 6afcc4431ca9666a6f582393
+    description: ""
+body:
+  type: json
+  content: "{\r
+
+    \   \"title\": \"My First Blog Post (Updated)\",\r
+
+    \   \"content\": \"Updated content from Postman test.\",\r
+
+    \   \"author\": \"Student\"\r
+
+    }"
+order: 3000
